@@ -41,5 +41,6 @@ public class ProcessosController {
     List<Processos> processosNaoNotificados = repository.findByNotificadoFalse();
     return processosNaoNotificados;
     }
+    
 
 }

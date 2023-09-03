@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -24,18 +25,14 @@ public class Processos {
     private String numeroProcesso;
     @Column(name = "nome")
     private String nome;
+    @Column(name = "documento")
+    private String documento;
     @Column(name = "email")
     private String email;
     @Column(name = "cep")
     private String cep;
-   /* @Column(name = "data_notificação")
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date dataNotificacao;*/
     @Column(name = "notificado")
     private boolean notificado;
-
-    public Processos() {
-    }
 
 }
     
